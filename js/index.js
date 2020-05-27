@@ -18,3 +18,11 @@ function decrement() {
   document.getElementById("selling_price").textContent = selling_price;
   document.getElementById("profit_rate").textContent = profit_rate + "%";
 }
+
+function refresh() {
+  rate = 1.005;
+  profit_rate = 0.0;
+  document.getElementById("buying_price").value = "";
+  document.getElementById("selling_price").textContent = "";
+  document.getElementById("profit_rate").textContent = profit_rate + "%";
+}
