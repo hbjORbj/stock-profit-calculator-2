@@ -29,11 +29,13 @@ body {
     margin-bottom: 100px;
     .price_container {
       display: flex;
-      margin-bottom: 20px;
       width: 400px;
       height: 60px;
-      &:nth-child(2) {
-        margin-bottom: 70px;
+      div {
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
       }
       .title {
         align-self: flex-end;
@@ -56,6 +58,7 @@ body {
     }
     .submit {
       display: flex;
+      margin-top: 75px;
       .increment {
         margin-right: 10px;
       }
@@ -65,6 +68,17 @@ body {
         text-decoration: none;
         border: 1px solid black;
         padding: 20px;
+      }
+    }
+    .refresh {
+      margin-top: 80px;
+      a {
+        font-size: 27px;
+        color: black;
+        text-decoration: none;
+        border: 1px solid black;
+        padding: 20px;
+        border-radius: 100px;
       }
     }
   }
