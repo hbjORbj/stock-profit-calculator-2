@@ -54,6 +54,9 @@ body {
         background-color: transparent;
         padding: 10px;
         border-bottom: 1px solid black;
+        &:focus {
+          outline: none;
+        }
       }
     }
     .submit {
